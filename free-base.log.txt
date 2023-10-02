@@ -1,0 +1,21 @@
+3661359;469542551: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"国際標準図書番号（ISBN）"@ja	.
+3661360;469542695: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"ISBN"@hr	.
+3661361;469542809: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"ISBN"@fil	.
+3661362;469542924: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"ISBN"@ca	.
+3661363;469543038: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"ISBN"@sv	.
+3661364;469543152: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"Κωδικ?? ISBN"@el	.
+3661365;469543281: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"ISBN"@es-419	.
+3661366;469543399: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"ISBN"@ms	.
+3661367;469543513: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"??? ???? ?????? ?????? (ISBN)"@ar	.
+3661368;469543671: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"ISBN"@uk	.
+3661369;469543785: <http://rdf.freebase.com/ns/g.125ckjy0t>	<http://rdf.freebase.com/ns/common.notable_for.display_name>	"ISBN"@en-GB	.
+Error: reading buffer for
+       #<line-reader:stream
+         #P"freebase-rdf-latest" for input pos 469543962 @ #x10077ac12>
+       resulted in error (code 22): Invalid argument.
+  [condition type: errno-stream-error]
+
+Restart actions (select using :continue):
+ 0: Return to Top Level (an "abort" restart).
+ 1: Abort entirely from this (lisp) process.
+[1] cl-user(10): 

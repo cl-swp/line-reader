@@ -1,0 +1,42 @@
+14260621 14260621;1929459810: <http://rdf.freebase.com/ns/m.0zgkztb>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>       <http://rdf.freebase.com/ns/film.performance>   .
+14260622 14260622;1929459947: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed> <http://rdf.freebase.com/ns/m.02kprmv>  .
+14260623 14260623;1929460091: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/award.award_honor.award_winner>     <http://rdf.freebase.com/ns/m.01n44c>   .
+14260624 14260624;1929460230: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/award.award_honor.year>     "1981"^^<http://www.w3.org/2001/XMLSchema#gYear>        .
+14260625 14260625;1929460372: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed> <http://rdf.freebase.com/ns/m.0bzy7yg>  .
+14260626 14260626;1929460516: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/award.award_honor.honored_for>      <http://rdf.freebase.com/ns/m.0zgl193>  .
+14260627 14260627;1929460655: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/award.award_honor.ceremony> <http://rdf.freebase.com/ns/m.0wfk8ls>  .
+14260628 14260628;1929460791: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed> <http://rdf.freebase.com/ns/m.02kprn6>  .
+14260629 14260629;1929460935: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed> <http://rdf.freebase.com/ns/m.02kprlv>  .
+14260630 14260630;1929461079: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/award.award_honor.award>    <http://rdf.freebase.com/ns/m.0413glq>  .
+14260631 14260631;1929461212: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/type.object.type>   <http://rdf.freebase.com/ns/award.award_honor>  .
+14260632 14260632;1929461346: <http://rdf.freebase.com/ns/m.0zgl18_>    <http://rdf.freebase.com/ns/freebase.valuenotation.is_reviewed> <http://rdf.freebase.com/ns/m.02kprnk>  .
+Heap exhausted during allocation: 125304832 bytes available, 134217744 requested.
+Gen  Boxed   Code    Raw  LgBox LgCode  LgRaw  Pin       Alloc     Waste        Trig      WP GCs Mem-age
+ 0     680      0      0      0      0      0    0    44341840    222640    10737418     680   0  0.0000
+ 1      80      0      1      0      0      0   78     3412320   1896096    10737418      81   0 12.5001
+ 2       3      0      0   3482      0   1742  874   342386368    170304    10737418    5227   0  0.0000
+ 3      81     26     20   2612      0   3356 1695   398995888    446032     2000000    6095   0  0.0000
+ 4       0      0      0      0      0      0    0           0         0     2000000       0   0  0.0000
+ 5       0      0      0      0      0      0    0           0         0     2000000       0   0  0.0000
+ 6     260    174     96     28      0      0    0    35848736    720352     2000000     558   0  0.0000
+           Total bytes allocated    =     824985152
+           Dynamic-space-size bytes =    1073741824
+GC control variables:
+   *GC-INHIBIT* = false
+   *GC-PENDING* = true
+   *STOP-FOR-GC-PENDING* = false
+
+debugger invoked on a SB-KERNEL::HEAP-EXHAUSTED-ERROR in thread
+#<THREAD "main thread" RUNNING {10010B0523}>:
+  Heap exhausted (no more space for allocation).
+125304832 bytes available, 134217744 requested.
+
+PROCEED WITH CAUTION.
+
+Type HELP for debugger help, or (SB-EXT:EXIT) to exit from SBCL.
+
+restarts (invokable by number or by possibly-abbreviated name):
+  0: [ABORT] Exit debugger, returning to top level.
+
+(SB-KERNEL::HEAP-EXHAUSTED-ERROR 62652416 67108872)
+0]
